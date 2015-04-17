@@ -105,6 +105,24 @@ define(function () {
 			    }
 			    return result;
 			},
+			/**
+			 * 一层循环，使用hastable方式，但是不使用push，使用i++
+			 * 
+			 * @param  {Array} arr 原数组
+			 * @return {Array}     结果
+			 */
+			uniq6: function (orgArr) {
+				var result = [];
+			    var hasItem = {};
+			    var j = 0;
+			    for (var i = 0, item; (item = orgArr[i++]);) {
+			        if (!hasItem[item]) {
+			            result[j++] = item;
+			            hasItem[item] = true;
+			        }
+			    }
+			    return result;
+			},
 			_indexOf: function (arr, item) {
 				console.log(this);
 				for (var i = 0, tpm; (tpm = arr[i++]); ) {

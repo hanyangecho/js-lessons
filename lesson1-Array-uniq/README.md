@@ -16,7 +16,7 @@
 ```
 ![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/34.pic.jpg)
 
-针对上述场景，一一测试各种实现（包括部分开源框架实现，例如jquery、undersorce）的效率，找出我能力所限最优方案。
+针对上述场景，一一测试各种实现的效率，找出我能力所限最优方案。
 
 ## 知识点
 

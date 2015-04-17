@@ -24,6 +24,9 @@ define(['src/util', 'mocha', 'chai'], function (util, mocha, chai) {
             var begin5 = new Date();
             util.Array.uniq5(result);
             console.log('算法五耗时:' + (new Date() - begin5));
+            // var begin6 = new Date();
+            // util.Array.uniq6(result);
+            // console.log('算法五耗时:' + (new Date() - begin6));
             (1).should.equal(1);
 		});
 	});
