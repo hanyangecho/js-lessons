@@ -13,7 +13,7 @@
 * len = 1w的Array；
 * 浏览器：chrome 版本 41.0.2272.118 (64-bit)
 * 系统：
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/12.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/12.pic.jpg)
 ```
 针对上述场景，一一测试各种实现（包括部分开源框架实现，例如jquery、undersorce）的效率，找出我能力所限最优方案。
 ## 知识点
@@ -41,9 +41,9 @@ uniq1: function (orgArr) {
 ```
 测试结果：
 `5000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/11.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/11.pic.jpg)
 `10000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/12.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/12.pic.jpg)
 结果：
 `数据越大越耗时`
 
@@ -70,9 +70,9 @@ uniq2: function (orgArr) {
 ```
 为了进行比较，我把算法一和算法二放在了一起(下同)，测试结果：
 `5000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/36.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/36.pic.jpg)
 `10000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/37.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/37.pic.jpg)
 结果：
 ```
 1、数据越大越耗时
@@ -98,9 +98,9 @@ uniq3: function (orgArr) {
 ```
 测试结果：
 `5000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/38.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/38.pic.jpg)
 `10000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/39.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/39.pic.jpg)
 结果：
 ```
 1、算法二目前来说还是最好，当然算法一最差
@@ -135,9 +135,9 @@ uniq4: function (orgArr) {
 ```
 测试结果：
 `5000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/40.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/40.pic.jpg)
 `10000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/68.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/68.pic.jpg)
 结果：
 ```
 目前来看这种算法完胜，当然最好的肯定要放在最后了，看看后面那个怎么样
@@ -166,14 +166,14 @@ uniq5: function (orgArr) {
 ```
 测试结果：
 `5000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/69.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/69.pic.jpg)
 `10000`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/70.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/70.pic.jpg)
 从上面结果来看，`算法四`和`算法五`在`len = 5k`和`len = 1w`几乎不分伯仲，为了区分这两个算法的优劣，我们单独为这两个算法增加数据量进行对比：
 `2w`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/71.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/71.pic.jpg)
 `10w`:
-![](https://github.com/hanyangecho/karma-mocha-requriejs-phantomjs/blob/master/img/72.pic.jpg)
+![](https://github.com/hanyangecho/js-lessons/blob/master/lesson1-Array-uniq/img/72.pic.jpg)
 结果：
 ```
 1、算法四和算法五，数据量小的情况下不分伯仲；
