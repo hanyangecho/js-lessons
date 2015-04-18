@@ -22,7 +22,7 @@
 1. 里边用到了karma测试框架，详情见这里[karma]
 
 ### 算法一
-说明：两层嵌套
+说明：>两层嵌套
 ```javascript
 uniq1: function (orgArr) {
     var newArr = orgArr.slice(0);
