@@ -7,6 +7,3 @@
 ```
 [《lesson1-Array-uniq》]: https://github.com/hanyangecho/js-lessons/tree/master/lesson1-Array-uniq
 [《lesson2-Array-uniq》]: https://github.com/hanyangecho/js-lessons/tree/master/lesson1-timezone
-
-
-
