@@ -4,7 +4,7 @@
 ```
 * lesson1:[《lesson1-Array-uniq》]Array去重
 ```
-[《lesson1-Array-uniq》]:https://github.com/hanyangecho/js-lessons/tree/master/lesson1-Array-uniq
+[《lesson1-Array-uniq》]: https://github.com/hanyangecho/js-lessons/tree/master/lesson1-Array-uniq
 
 
 
